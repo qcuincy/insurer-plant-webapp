@@ -86,7 +86,9 @@ The script `app.py` supports a `--mode` argument to choose how to run:
     * Number of Minor Events
     * Assumed Average Severity (optional, press Enter to skip)
     The prediction results will be printed directly in your terminal.
-
+<p align="center">
+  <img src="screenshots\terminal.png" width="350" title="hover text">
+</p>
 3.  **Dash Web App Mode:**
     To run as a web application:
     ```bash
@@ -96,7 +98,9 @@ The script `app.py` supports a `--mode` argument to choose how to run:
     * If the libraries are present, the Dash application will start. By default, it will be accessible at: `http://127.0.0.1:8050/`
     * Open this URL in your web browser to use the interactive dashboard.
     * To stop the Dash server, go back to your terminal and press `Ctrl+C`.
-
+<p align="center">
+  <img src="screenshots\dash_app.png" width="350" title="hover text">
+</p>
 ## File Structure Overview
 
 For the application to run correctly, your main project directory should ideally look like this:
